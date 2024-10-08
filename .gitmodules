@@ -1,3 +1,6 @@
+[submodule "themes/hugo-cloak-email"]
+	path = themes/hugo-cloak-email
+	url = https://github.com/martignoni/hugo-cloak-email.git
 [submodule "themes/hugo-blog-awesome"]
 	path = themes/hugo-blog-awesome
-	url = https://github.com/hugo-sid/hugo-blog-awesome.git
+	url = https://github.com/bigoh1/hugo-blog-awesome.git
