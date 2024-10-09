@@ -71,15 +71,20 @@ theme = ["hugo-cloak-email", "hugo-blog-awesome"]
     url = '/posts/'
     weight = 20
   [[Languages.en-gb.menu.main]]
+    pageRef="portfolio"
+    name = 'Portfolio'
+    url = '/portfolio/'
+    weight = 30
+  [[Languages.en-gb.menu.main]]
     pageRef="about"
     name = 'About me'
     url = '/pages/about'
-    weight = 30
+    weight = 40
   [[Languages.en-gb.menu.main]]
     pageRef="cv"
     name = 'CV'
     url = '/pages/cv'
-    weight = 40
+    weight = 50
 
 [Languages.en-gb.params]
   sitename = "Yehor varbanskyi's website"
