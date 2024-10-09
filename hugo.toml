@@ -73,12 +73,12 @@ theme = ["hugo-cloak-email", "hugo-blog-awesome"]
   [[Languages.en-gb.menu.main]]
     pageRef="about"
     name = 'About me'
-    url = '/about/'
+    url = '/pages/about'
     weight = 30
   [[Languages.en-gb.menu.main]]
     pageRef="cv"
     name = 'CV'
-    url = '/cv/'
+    url = '/pages/cv'
     weight = 40
 
 [Languages.en-gb.params]
