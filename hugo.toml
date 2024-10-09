@@ -36,6 +36,9 @@ theme = ["hugo-cloak-email", "hugo-blog-awesome"]
   [services.disqus]
     shortname = ''
 
+[security]
+  enableInlineShortcodes = true
+
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
   [markup.highlight]
@@ -69,7 +72,7 @@ theme = ["hugo-cloak-email", "hugo-blog-awesome"]
     weight = 20
   [[Languages.en-gb.menu.main]]
     pageRef="about"
-    name = 'About'
+    name = 'About me'
     url = '/about/'
     weight = 30
   [[Languages.en-gb.menu.main]]
@@ -86,7 +89,7 @@ theme = ["hugo-cloak-email", "hugo-blog-awesome"]
   # You can take a look at layouts/index.html for more information.
   description = "Here live my contact info, CV and my 'blog'"
   mainSections = ['posts']
-  toc = true # set to false to disable table of contents 'globally'
+  toc = false # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
@@ -103,9 +106,9 @@ theme = ["hugo-cloak-email", "hugo-blog-awesome"]
 [Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "My brain dump"
+  intro = "Yehor Varbanskyi"
   name = "Yehor Varbanskyi"
-  description = "my 'bio' goes here : )"
+  description = "I go by bigoh1 on the internet"
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
@@ -192,3 +195,6 @@ theme = ["hugo-cloak-email", "hugo-blog-awesome"]
 name = "github"
 url = "https://github.com/bigoh1"
 
+[[params.socialIcons]]
+name = "cv"
+url = "/cv.pdf"
